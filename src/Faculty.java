@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Collection;
 
 public class Faculty {
@@ -8,7 +10,7 @@ public class Faculty {
 
 	@Override
 	public String toString() {
-		return "Faculty{" +
+		return "src.Faculty{" +
 				"dean=" + dean +
 				", institutes=" + institutes +
 				", name='" + name + '\'' +
@@ -46,11 +48,11 @@ public class Faculty {
 	 * @param name
 	 */
 	public Faculty(Dean dean, Collection institutes, String name) {
-		// TODO - implement Faculty.Faculty
+		// TODO - implement src.Faculty.src.Faculty
 	}
 
 	public void setSessionDate() {
-		// TODO - implement Faculty.setSessionDate
+		// TODO - implement src.Faculty.setSessionDate
 	}
 
 }

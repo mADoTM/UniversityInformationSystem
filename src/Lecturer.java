@@ -1,12 +1,14 @@
+package src;
+
 public class Lecturer extends ResearchAssociate {
 
 	public void checkTask() {
-		// TODO - implement Lecturer.checkTask
+		// TODO - implement src.Lecturer.checkTask
 		throw new UnsupportedOperationException();
 	}
 
 	public void giveTask() {
-		// TODO - implement Lecturer.giveTask
+		// TODO - implement src.Lecturer.giveTask
 		throw new UnsupportedOperationException();
 	}
 
@@ -20,7 +22,7 @@ public class Lecturer extends ResearchAssociate {
 
 	@Override
 	public String toString() {
-		return "Lecturer{" +
+		return "src.Lecturer{" +
 				"fieldOfStudy='" + fieldOfStudy + '\'' +
 				", name='" + name + '\'' +
 				", counter=" + counter +

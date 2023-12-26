@@ -1,3 +1,5 @@
+package src;
+
 public class AdminEmployee extends Employee {
 
 	/**
@@ -17,7 +19,7 @@ public class AdminEmployee extends Employee {
 
 	@Override
 	public String toString() {
-		return "AdminEmployee{" +
+		return "src.AdminEmployee{" +
 				"counter=" + counter +
 				", email='" + email + '\'' +
 				", name='" + name + '\'' +
@@ -26,7 +28,7 @@ public class AdminEmployee extends Employee {
 	}
 
 	public void hireNewEmployee() {
-		// TODO - implement AdminEmployee.hireNewEmployee
+		// TODO - implement src.AdminEmployee.hireNewEmployee
 	}
 
 }

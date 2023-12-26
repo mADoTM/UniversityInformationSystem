@@ -1,3 +1,5 @@
+package src;
+
 public class ResearchAssociate extends Employee {
 
 	public String fieldOfStudy;
@@ -8,7 +10,7 @@ public class ResearchAssociate extends Employee {
 
 	@Override
 	public String toString() {
-		return "ResearchAssociate{" +
+		return "src.ResearchAssociate{" +
 				"fieldOfStudy='" + fieldOfStudy + '\'' +
 				", name='" + name + '\'' +
 				", counter=" + counter +
@@ -48,7 +50,7 @@ public class ResearchAssociate extends Employee {
 	}
 
 	public void startProject() {
-		// TODO - implement ResearchAssociate.startProject
+		// TODO - implement src.ResearchAssociate.startProject
 	}
 
 }

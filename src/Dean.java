@@ -1,3 +1,5 @@
+package src;
+
 public class Dean extends Employee {
 
 	/**
@@ -16,12 +18,12 @@ public class Dean extends Employee {
 	}
 
 	public void processCertificationResults() {
-		// TODO - implement Dean.processCertificationResults
+		// TODO - implement src.Dean.processCertificationResults
 	}
 
 	@Override
 	public String toString() {
-		return "Dean{" +
+		return "src.Dean{" +
 				"counter=" + counter +
 				", email='" + email + '\'' +
 				", name='" + name + '\'' +

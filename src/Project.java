@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Date;
 
 public class Project {
@@ -49,12 +51,12 @@ public class Project {
 	}
 
 	public void publishResults() {
-		// TODO - implement Project.publishResults
+		// TODO - implement src.Project.publishResults
 	}
 
 	@Override
 	public String toString() {
-		return "Project{" +
+		return "src.Project{" +
 				"name='" + name + '\'' +
 				", start=" + start +
 				", end=" + end +

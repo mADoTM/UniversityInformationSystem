@@ -1,8 +1,10 @@
+package src;
+
 public class Participation {
 
-	public int hours;
+	public Double hours;
 
-	public int getHours() {
+	public Double getHours() {
 		return this.hours;
 	}
 
@@ -10,7 +12,7 @@ public class Participation {
 	 * 
 	 * @param hours
 	 */
-	public void setHours(int hours) {
+	public void setHours(Double hours) {
 		this.hours = hours;
 	}
 
@@ -19,17 +21,13 @@ public class Participation {
 	 * @param hours
 	 */
 	public Participation(Double hours) {
-		// TODO - implement Participation.Participation
+		this.hours = hours;
 	}
 
 	@Override
 	public String toString() {
-		return "Participation{" +
+		return "src.Participation{" +
 				"hours=" + hours +
 				'}';
-	}
-
-	public Participation(int hours) {
-		this.hours = hours;
 	}
 }

@@ -1,3 +1,5 @@
+package src;
+
 public class Course {
 
 	public String name;
@@ -47,16 +49,16 @@ public class Course {
 	 * @param id
 	 */
 	public Course(String name, double hours, int id) {
-		// TODO - implement Course.Course
+		// TODO - implement src.Course.src.Course
 	}
 
 	public void cancelLesson() {
-		// TODO - implement Course.cancelLesson
+		// TODO - implement src.Course.cancelLesson
 	}
 
 	@Override
 	public String toString() {
-		return "Course{" +
+		return "src.Course{" +
 				"name='" + name + '\'' +
 				", hours=" + hours +
 				", id=" + id +

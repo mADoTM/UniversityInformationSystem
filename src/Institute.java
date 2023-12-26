@@ -1,10 +1,12 @@
+package src;
+
 public class Institute {
 
 	public String name;
 
 	@Override
 	public String toString() {
-		return "Institute{" +
+		return "src.Institute{" +
 				"name='" + name + '\'' +
 				", address='" + address + '\'' +
 				'}';
@@ -18,7 +20,7 @@ public class Institute {
 	}
 
 	public void expelStudent() {
-		// TODO - implement Institute.expelStudent
+		// TODO - implement src.Institute.expelStudent
 	}
 
 	public String getName() {

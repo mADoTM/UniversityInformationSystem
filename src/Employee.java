@@ -1,3 +1,5 @@
+package src;
+
 public class Employee{
 
 	public int counter;

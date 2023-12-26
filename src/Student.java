@@ -1,3 +1,5 @@
+package src;
+
 public class Student {
 
 	public String name;
@@ -15,12 +17,12 @@ public class Student {
 	}
 
 	public void executeTask() {
-		// TODO - implement Student.executeTask
+		// TODO - implement src.Student.executeTask
 	}
 
 	@Override
 	public String toString() {
-		return "Student{" +
+		return "src.Student{" +
 				"name='" + name + '\'' +
 				'}';
 	}
